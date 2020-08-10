@@ -1,0 +1,53 @@
+body {
+    background-color: #232323;
+    margin: 0 0;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+h1 {
+    background-color: steelblue;
+    color: white;
+    line-height: 1.1;
+    margin: 0 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#strip {
+    text-align: center;
+    height: 30px;
+    background-color: white;
+}
+
+#colourdisplay {
+    font-size: 200%;
+    letter-spacing: 1px;
+}
+
+button {
+    background: none;
+    border: none;
+    height: 100%;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
